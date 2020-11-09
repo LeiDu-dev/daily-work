@@ -1,0 +1,3 @@
+1. 早上组合数学，然后今天看了另一篇文章A Differential Privacy Framework to Defend Smart Homes Against Internet Traffic Analysis，
+   文中用差分隐私来抵御网络流量攻击，不过他不是在流量中加噪声，而是用了“不可区分”的思想，让敌手无法对流量溯源，只要敌手不知道流量
+   来自什么设备，配合加密就可以抵御流量分析。具体的细节还没看到，还要花时间看。

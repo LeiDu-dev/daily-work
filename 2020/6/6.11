@@ -1,0 +1,10 @@
+1. 今天在读rdp的文章，然后想到如果用rdp的定义来做深度学习，然后在具体问题上进行一定的改进应该也算一种创新。
+   然后找到一篇文章，但还没看，看别的综述里的概况是说用差分隐私的方法来保护联邦学习的隐私安全，具体的思想是掩盖每个用户的贡献度，
+   这个思路和我的是一样的，所以打算看下他具体的做法。
+   
+   还要就是果然差分隐私的理论是绕不开的，Deep Learning with Differential Privacy中的Moments Accountant和Renyi Differential Privacy
+   还是得仔细弄明白了。按理说既然第三方库用的都是Renyi Differential Privacy中的方法，那应该明显是rdp更好，但大量的研究还是用的另一个
+   MA的方法，弄得我有点迷惑，到底哪个是最优解。
+   
+   （不过我看google的tensorflow的那个privacy库里直接就把Deep Learning with Differential Privacy里的源码给删了，就...
+     那个库本来就是Deep Learning with Differential Privacy这篇文章给的源码地址，现在直接把MA方法删了换成RDP实现了）
